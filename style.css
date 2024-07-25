@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 90vw;
+   
+    
+}
+
+.navbar{
+    display: flex;
+    height: 6px;
+
+}
+.navbar li a{
+    text-decoration: none;
+    color: rgb(0, 5, 5);
+    
+}
+.navbar li{
+    list-style: none;
+    margin: 0 15px;
+    
+}
+.topleft{
+    width: 50%;
+    height: 50vh;
+}
+.topright{
+    width: 50%;
+    height: 50vh;
+}
+.section1{
+    max-height: 130vh;
+    padding-right: 100px;
+    
+}
+.logo{
+    font-size: 2.6rem;
+    color: var(--text-color);
+    padding-right: 390px;
+    padding-top: 75px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.logo:hover{
+    transform: scale(1.1);
+
+}
+    
+
+

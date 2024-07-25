@@ -1,0 +1,136 @@
+
+
+body{
+    background-color: #100e0ee3;
+   
+
+}
+.headiing{
+    text-align: center;
+    font-size: 7rem;
+    font-weight: bold;
+    margin-bottom: 100px;
+    margin-top: 50px;
+
+}
+.sev{
+    
+    width: 460px;
+    border-radius: 27px;
+    border-left: 30px;
+
+    margin-left: 20px;
+    transition: all 0.5s ease;
+}
+.sev:hover {
+    border: 1px solid var(--main-color);
+    transform: translateY(-5px) scale(1.04);
+    cursor: pointer;
+    color: #fff;
+    background:rgb(218, 211, 246);
+    box-shadow: 0 0 10px rgb(235, 235, 246), 0 0 15px rgb(225, 225, 245)
+}
+.services-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,auto));
+    align-items: center;
+    gap: 2.3rem;
+    
+
+}
+
+.h4{
+    font-size: 35px;
+    font-weight:bold;
+    margin-bottom: 50px;
+    line-height: 1.4;
+    padding-left: 150px;
+    color: #fff;
+    
+}
+
+/* pricing section code  */
+
+.plans{
+    background: var(--snd-bg-color);
+}
+
+.plans-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    align-items: center;
+    gap: 2.3rem;
+    margin-top: 4.2rem;
+
+}
+
+.box{
+    padding: 30px 30px 50px 60px;
+    height: 40rem;
+    background:rgb(0, 0, 0);
+    border-radius: 28px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px var(--main-color);
+    transition: all 0.5s ease;
+    cursor: pointer;
+    flex-direction: row;
+    background-size: cover;
+    
+    gap: 2rem;
+
+    
+    
+    
+
+}
+.bb{
+    margin-left: 100px;
+}
+.box h3{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.box h2{
+    color: #fff;
+    font-size: 43px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.box ul li{
+    color: #fff;
+    list-style: disc;
+    font-size: 1.7rem;
+    margin-bottom: 1.2rem;
+
+}
+.box a{
+    
+    display: inline-block;
+    font-size: 22px;
+    line-height: 1.2em;
+    font-weight: 700;
+    padding: 7px 0;
+    color: var(--text-colour);
+    border-bottom: 2px solid #e5eaf0;
+    transition: all 0.5s ease;
+    color: #fff;
+    
+    text-decoration: none;
+}
+.box i{
+    color: #fff;
+    vertical-align: middle;
+    font-size: 25px;
+    color: var(--main-color);
+    margin-left: 5px;
+}
+.box a:hover{
+    border-bottom: 2px solid white;
+}
+.box:hover{
+    border: 1px solid var(--main-color);
+    transform: translateY(-5px) scale(1.03);
+}
